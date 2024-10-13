@@ -13,7 +13,7 @@
       in
       {
         devShell = pkgs.mkShell {
-          buildInputs = [
+          buildInputs = with pkgs; [
             nodejs_22
             typescript
             nodePackages.typescript-language-server
