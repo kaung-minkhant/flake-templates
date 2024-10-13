@@ -11,6 +11,10 @@
         path = ./go;
         description = "A simple go template flake";
       };
+      typescript-npm = {
+        path = ./typescript/npm;
+        description = "Template with node server and dev environment with typescript";
+      };
     };
   };
 }
